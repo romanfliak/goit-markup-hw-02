@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: 434455;
 }
 
 .list {
@@ -24,7 +25,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
 
   align-items: center;
   letter-spacing: 0.03em;
@@ -50,7 +51,7 @@ body {
   color: var(--hover-color);
 }
 
-.contacts-mail-link {
+.contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -59,36 +60,33 @@ body {
   color: var(--contacts-color);
 }
 
-.contacts-phone-number {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: var(--contacts-color);
-}
-
-.contacts-mail-link:hover,
-.contacts-mail-link:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--hover-color);
 
 }
 
+.address {
+  font-style: normal;
+}
+
 /* main class hero */
+.hero {
+  background-color: #2E2F42;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  /* color: #FFFFFF; */
+  text-align: center;
+  color: #FFFFFF;
 }
 
-.contacts-phone-number:hover,
-.contacts-phone-number:focus {
-  color: var(--hover-color);
-}
 
 .modal-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -109,6 +107,14 @@ body {
 
 /* ===========ABOUT ==========*/
 
+.about {
+  background-color: #2e2f42;
+}
+
+.about-title-main {
+  text-align: center;
+  color: #FFFFFF;
+}
 
 .about-title {
   font-style: normal;
@@ -116,7 +122,7 @@ body {
   font-size: 20px;
   line-height: 1.05;
   letter-spacing: 0.02em;
-  color: var(--main-title-color)
+  color: var(--main-title-color);
 }
 
 .about-text {
@@ -177,6 +183,15 @@ body {
 }
 
 /* ===========FOOTER=========== */
+
+.footer {
+  background-color: var(--page-nave-color);
+}
+
+.logo-link {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-style: normal;
   font-weight: 400;
@@ -185,6 +200,6 @@ body {
 
   letter-spacing: 0.02em;
 
-  /* color: #E7E9FC; */
+  color: #E7E9FC;
 
 }
