@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: 434455;
+  color: #434455
 }
 
 .list {
@@ -34,7 +34,7 @@ body {
 }
 
 .logo-link {
-  color: var(--page-nave-color);
+  color: #2e2f42;
 }
 
 .menu-link {
